@@ -49,33 +49,33 @@
     {
       "id": "1",
       "title": "Fullstack Web Development",
-      "description": "We help with the creation and development of web applications using a secure backend and a dynamic frontend."
+      "description": "I help with the creation and development of web applications using a secure backend and a dynamic frontend."
     }
   ],
   "aboutpara": "I am a Full Stack Developer with a background in UXD/UXR, education, and non-profit management. I am passionate about education for underrepresented people which drives me to create equitable and accessible designs. As a child of Deaf adults I have a special connection to the Deaf community which helps drive me to focus on equity and accessibility for all users.",
   "resume": {
     "tagline": " I'm a fullstack software engineer.",
-    "description": "Well-versed with React, Python, Javascript, and most of the Web frameworks.",
+    "description": "Well-versed with React, Python, Javascript.",
     "experiences": [
       {
         "id": "1",
         "dates": "December 2022 - July 2023",
         "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Bullet One, Bullet Two"
+        "position": "Front-End Developer at Frempco",
+        "bullets": "Built front-end features using React with a team of developers to solve user issues for classroom teachers"
       },
       {
-        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-        "dates": "July 2020 - March 2022",
+        "id": "2",
+        "dates": "January 2022 - December 2022",
         "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+        "position": "UX Designer/Researcher, Freelance",
+        "bullets": "Analyzed data from clients using qualitative and quantitative methods to aid in discussions with software engineers for learning platforms. Worked with a Fintech startup using competitive analysis to optimize lead generation."
       }
     ],
     "education": {
       "universityName": "Hack Reactor",
       "universityDate": "2023",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      "universityPara": "Software Engineering Immersive Program"
     },
     "languages": ["Javascript", "HTML5", "CSS", "Python"],
     "frameworks": ["React", "Typescript", "NodeJs"],
