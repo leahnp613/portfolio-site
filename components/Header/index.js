@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
+import Link from "next/link";
 
 const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   const router = useRouter();
@@ -74,15 +75,16 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
-                  {showResume && (
-                    <Button
-                      onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
+                  <Button>
+                    <Link
+                      href={
+                        "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1CsXeCZfM0u9ULCidbOAUiMuc9H6M1ApN/export?format=pdf"
                       }
+                      target="_blank"
                     >
                       Resume
-                    </Button>
-                  )}
+                    </Link>
+                  </Button>
 
                   <Button
                     onClick={() => window.open("mailto:hello@chetanverma.com")}
@@ -98,14 +100,16 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
-                  {showResume && (
-                    <Button
-                      onClick={() => router.push("/resume")}
-                      classes="first:ml-1"
+                  <Button>
+                    <Link
+                      href={
+                        "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1CsXeCZfM0u9ULCidbOAUiMuc9H6M1ApN/export?format=pdf"
+                      }
+                      target="_blank"
                     >
                       Resume
-                    </Button>
-                  )}
+                    </Link>
+                  </Button>
 
                   <Button
                     onClick={() => window.open("mailto:hello@chetanverma.com")}
@@ -136,14 +140,16 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
-            {showResume && (
-              <Button
-                onClick={() => router.push("/resume")}
-                classes="first:ml-1"
+            <Button>
+              <Link
+                href={
+                  "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1CsXeCZfM0u9ULCidbOAUiMuc9H6M1ApN/export?format=pdf"
+                }
+                target="_blank"
               >
                 Resume
-              </Button>
-            )}
+              </Link>
+            </Button>
 
             <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
               Contact
@@ -165,14 +171,16 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
-            {showResume && (
-              <Button
-                onClick={() => router.push("/resume")}
-                classes="first:ml-1"
+            <Button>
+              <Link
+                href={
+                  "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1CsXeCZfM0u9ULCidbOAUiMuc9H6M1ApN/export?format=pdf"
+                }
+                target="_blank"
               >
                 Resume
-              </Button>
-            )}
+              </Link>
+            </Button>
 
             <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
               Contact

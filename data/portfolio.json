@@ -15,7 +15,11 @@
       "title": "LinkedIn",
       "link": "https://www.linkedin.com/in/leah-nagarpowers/"
     },
-    { "id": "3", "title": "Blog", "link": "https://koshermomtime.wordpress.com/" },
+    {
+      "id": "3",
+      "title": "Blog",
+      "link": "https://koshermomtime.wordpress.com/"
+    },
     { "id": "4", "title": "Email", "link": "mailto:leahnagarpowers@gmail.com" }
   ],
   "projects": [
@@ -31,7 +35,7 @@
       "title": "Sunday Funday",
       "description": "Web Development",
       "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "url": "https://gitlab.com/leahnp613/sunday-funday"
     },
     {
       "id": "3",
@@ -39,13 +43,6 @@
       "description": "Web Development",
       "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       "url": "Work in Progress"
-    },
-    {
-      "id": "4",
-      "title": "Project Four",
-      "description": "Marketing",
-      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
     }
   ],
   "services": [
@@ -53,23 +50,16 @@
       "id": "1",
       "title": "Fullstack Web Development",
       "description": "We help with the creation and development of web applications using a secure backend and a dynamic frontend."
-    },
-    {
-      "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
     }
-  
-    
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "aboutpara": "I am a Full Stack Developer with a background in UXD/UXR, education, and non-profit management. I am passionate about education for underrepresented people which drives me to create equitable and accessible designs. As a child of Deaf adults I have a special connection to the Deaf community which helps drive me to focus on equity and accessibility for all users.",
   "resume": {
     "tagline": " I'm a fullstack software engineer.",
     "description": "Well-versed with React, Python, Javascript, and most of the Web frameworks.",
     "experiences": [
       {
         "id": "1",
-        "dates":"December 2022 - July 2023",
+        "dates": "December 2022 - July 2023",
         "type": "Full Time",
         "position": "Frontend Engineer at X",
         "bullets": "Bullet One, Bullet Two"
@@ -89,6 +79,6 @@
     },
     "languages": ["Javascript", "HTML5", "CSS", "Python"],
     "frameworks": ["React", "Typescript", "NodeJs"],
-    "others": ["Figma", "AdobeXD", "AWS"]
+    "others": ["RabbitMQ", "MongoDB", "AWS"]
   }
 }
