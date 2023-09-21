@@ -168,9 +168,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         ) : (
           <div className="flex">
             <Button onClick={() => router.push("/")}>Home</Button>
-            {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Blog</Button>
-            )}
+          
             <Button>
               <Link
                 href={

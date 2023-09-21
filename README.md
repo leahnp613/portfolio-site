@@ -8,7 +8,6 @@
 
 Youtube - https://www.youtube.com/watch?v=8cmJ2kR4SpM
 
-Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextjs-and-tailwindcss
 
 ### Features -
 
@@ -16,7 +15,6 @@ Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextj
 - Minimal Design
 - Easy To Browse
 - Easy To Customize your details With GUI
-- Blog Crud (Create, Read, Update, Delete blog with easy to use UI).
 - Dark Mode
 
 ### Sections
@@ -26,7 +24,7 @@ Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextj
 - Services
 - About
 - Contact
-- Markdown Blog
+
 
 ### How To Use
 
