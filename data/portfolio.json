@@ -5,7 +5,7 @@
   "headerTaglineThree": "fullstack developer 👩🏻‍💻",
   "headerTaglineFour": " based in New York, New York",
   "showCursor": true,
-  "showBlog": true,
+  "show": true,
   "darkMode": true,
   "showResume": true,
   "socials": [
